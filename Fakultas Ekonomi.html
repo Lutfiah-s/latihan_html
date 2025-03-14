@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Penerimaan Mahasiswa Baru</title>
+    <style>
+        /* Mengatur background dengan efek blur */
+        body {
+            width: 100%;
+            height: 100vh;
+            background: url('rektorat.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Overlay untuk efek transparan */
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 200%;
+            background: rgba(0, 0, 0, 0.6); /* Efek gelap transparan */
+            backdrop-filter: blur(3px); /* Efek blur pada background */
+        }
+
+        /* Kontainer utama */
+        .container {
+            position: relative;
+            z-index: 2;
+            padding: 20px;
+        }
+
+        /* Styling tabel */
+        table {
+            width: 90%;
+            margin: 10px auto;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.9); /* Putih transparan */
+            color: black;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background: rgb(179, 68, 164);
+            color: white;
+        }
+
+        /* Efek hover pada tabel */
+        tr:hover {
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        /* Gaya untuk logo */
+        img {
+            margin-top: 10px;
+            width: 120px;
+        }
+
+        /* Cetak */
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Overlay untuk efek blur -->
+    <div class="overlay"></div>
+
+    <!-- Konten utama -->
+    <div class="container">
+        <h2>LAPORAN PENERIMAAN MAHASISWA BARU</h2>
+        <h2>UNIVERSITAS NEGERI PADANG</h2>
+        <h3>TA : 2025/2026</h3>
+
+        <img src="logo_unp.png" alt="Logo Universitas">
+        <br><br>
+
+        <h3> Fakultas : Ekonomi Bisnis </h3>
+        <marquee><font color = "white" face = "times new roman">Selamat Datang Mahasiswa Baru di Fakultas Ekonomi Bisnis Universitas Negeri Padang</font></marquee>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>No. Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>20255101</td>
+                <td>Zahara Bunga Nabila</td>
+                <td>SNBT</td>
+                <td>Akuntansi</td>
+                <td>Akuntansi (D3)</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>20255102</td>
+                <td>Nabila Okta</td>
+                <td>SNBT</td>
+                <td>Akuntansi</td>
+                <td>Akuntansi (S1)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>20255201</td>
+                <td>Yusuf Mahardika</td>
+                <td>Mandiri</td>
+                <td>Manajemen</td>
+                <td>Manajemen Pajak (D3)</td>
+            <tr>
+                <td>4</td>
+                <td>20255102</td>
+                <td>Andika Saputra</td>
+                <td>SNBT</td>
+                <td>Akuntansi</td>
+                <td>Akuntansi (S1)</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>20255206</td>
+                <td>Hakim Syawatul Fitrah </td>
+                <td>Mandiri</td>
+                <td>Manajemen</td>
+                <td>Manajemen Pajak (D3)</td>
+            </tr>
+    
+        </table>
+        <h4><marquee><center><font color = "White" face = "Arial"> Copyright : Lutfiah Sahira, Fakultas Teknik, Universitas Negeri Padang </font></center></marquee></h4>
+    </div>
+
+</body>
+</html>

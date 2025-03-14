@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Penerimaan Mahasiswa Baru</title>
+    <style>
+        /* Mengatur background dengan efek blur */
+        body {
+            width: 100%;
+            height: 100vh;
+            background: url('rektorat.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Overlay untuk efek transparan */
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 200%;
+            background: rgba(0, 0, 0, 0.6); /* Efek gelap transparan */
+            backdrop-filter: blur(3px); /* Efek blur pada background */
+        }
+
+        /* Kontainer utama */
+        .container {
+            position: relative;
+            z-index: 2;
+            padding: 20px;
+        }
+
+        /* Styling tabel */
+        table {
+            width: 90%;
+            margin: 10px auto;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.9); /* Putih transparan */
+            color: black;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background: rgb(255, 251, 0);
+            color: rgb(0, 0, 0);
+        }
+
+        /* Efek hover pada tabel */
+        tr:hover {
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        /* Gaya untuk logo */
+        img {
+            margin-top: 10px;
+            width: 120px;
+        }
+
+        /* Cetak */
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Overlay untuk efek blur -->
+    <div class="overlay"></div>
+
+    <!-- Konten utama -->
+    <div class="container">
+        <h2>LAPORAN PENERIMAAN MAHASISWA BARU</h2>
+        <h2>UNIVERSITAS NEGERI PADANG</h2>
+        <h3>TA : 2025/2026</h3>
+
+        <img src="logo_unp.png" alt="Logo Universitas">
+        <br><br>
+
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>No. Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Fakultas</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>20251101</td>
+                <td>Adellathifurra Khairunnisa</td>
+                <td><a href = "Fakultas Ilmu Pendidikan.html">FIP </a></td>
+                <td>Administrasi Pendidikan</td>
+                <td>Administrasi Pendidikan(S1)</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>20252102</td>
+                <td>Naila Ghania Putri</td>
+                <td><a href = "Fakultas Bahasa dan Seni.html">FBS</a></td>
+                <td>Ilmu Informasi dan Perpustakaan</td>
+                <td>Perpustakaan dan Ilmu Informasi (S1)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>20253101</td>
+                <td>Elya Latifatul Hasanah</td>
+                <td><a href = "Fakultas MIPA.html">FMIPA </a></td>
+                <td>Fisika</td>
+                <td>Pendidikan Fisika (S1)</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>20254101</td>
+                <td>Rachel Mutiara Hesa</td>
+                <td><a href = "Fakultas Teknik.html">FT </a></td>
+                <td>Elektronika</td>
+                <td>Informatika (S1)</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>20255101</td>
+                <td>Zahara Bunga Nabila</td>
+                <td><a href = "Fakultas Ekonomi.html">FEB</td>
+                <td>Manajemen</td>
+                <td>Manajemen Pajak (D3)</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>20256101</td>
+                <td>Verlyn Madina Iswandi</td>
+                <td><a href = "Fakultas Sekolah Vokasi.html"> Sekolah Vokasi</td>
+                <td>Penginderaan Jauh & Sistem Informasi Geografis</td>
+                <td>Penginderaan Jauh & Sistem Informasi Geografis (D5)</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>20257101</td>
+                <td>Viola Rahma Zauhaira</td>
+                <td><a href = "Fakultas Kedokteran.html">FK</td>
+                <td>Kedokteran</td>
+                <td>Kedokteran (S1)</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>20258101</td>
+                <td>Putra Sriwijaya</td>
+                <td><a href = "Fakultas Ilmu Sosial.html">FIS </a></td>
+                <td>Geografi</td>
+                <td>Geografi (S1)</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>20259101</td>
+                <td>Yandi Wahyudi</td>
+                <td><a href = "Fakultas Pariwisata Perhotelan.html">FPP</td>
+                <td>Pariwisata</td>
+                <td>Pariwisata (S1)</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>202510101</td>
+                <td>Ainnaya Fadya Haya</td>
+                <td><a href = "Fakultas Psikologi.html">FPK </a></td>
+                <td>Psikologi</td>
+                <td>Psikologi (S1)</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>202511101</td>
+                <td>Salman Anggara </td>
+                <td><a href = "Fakultas Keolahragaan.html">FIK </a></td>
+                <td>Kepelatihan</td>
+                <td>Pendidkan Kepelatihan (S1)</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>202511201</td>
+                <td>Erlina Hastuti</td>
+                <td><a href = "Fakultas Program Pasca Sarjana.html">PPS</a></td>
+                <td>-</td>
+                <td>Ilmu Pendidikan (S3)</td>
+            </tr>
+        </table>
+    <h4><marquee><center><font color = "White" face = "Arial"> Copyright : Lutfiah Sahira, Fakultas Teknik, Universitas Negeri Padang </font></center></marquee></h4>
+    </div>
+</body>
+</html>
